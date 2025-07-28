@@ -11,7 +11,8 @@ const Projects = () => {
       technologies: ["React Native", "Mobile Development"],
       status: "Accomplished",
       icon: Smartphone,
-      features: ["Easy Booking", "Verified Professionals", "Secure Payments", "Real-time Tracking"]
+      features: ["Easy Booking", "Verified Professionals", "Secure Payments", "Real-time Tracking"],
+      githubUrl: "https://github.com/tsumit02/Skill-Connect"
     },
     {
       title: "AI Chat Bot",
@@ -19,7 +20,8 @@ const Projects = () => {
       technologies: ["HTML", "CSS", "JavaScript", "Google Gemini API"],
       status: "Accomplished", 
       icon: Bot,
-      features: ["Real-time Chat", "AI Powered", "Google Gemini Integration"]
+      features: ["Real-time Chat", "AI Powered", "Google Gemini Integration"],
+      githubUrl: "https://github.com/tsumit02/Ai-chatbot"
     },
     {
       title: "Restaurant Search App",
@@ -27,7 +29,8 @@ const Projects = () => {
       technologies: ["React Native", "Yelp API"],
       status: "Accomplished",
       icon: Utensils,
-      features: ["Yelp API Integration", "Budget-based Search", "Location Services"]
+      features: ["Yelp API Integration", "Budget-based Search", "Location Services"],
+      githubUrl: "https://github.com/tsumit02/food"
     },
     {
       title: "Portfolio Website",
@@ -35,7 +38,8 @@ const Projects = () => {
       technologies: ["React", "Vite", "Framer Motion"],
       status: "Accomplished",
       icon: Globe,
-      features: ["Responsive Design", "Smooth Animations", "Modern UI"]
+      features: ["Responsive Design", "Smooth Animations", "Modern UI"],
+      githubUrl: "https://github.com/tsumit02/Portfolio"
     }
   ];
 
@@ -101,13 +105,17 @@ const Projects = () => {
                   </div>
                   
                   <div className="flex gap-3 pt-4">
-                    <Button size="sm" className="flex-1 group-hover:shadow-lg transition-all duration-300">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      View Project
-                    </Button>
-                    <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                      <Github className="w-4 h-4" />
-                    </Button>
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1"
+                    >
+                      <Button size="sm" className="w-full group-hover:shadow-lg transition-all duration-300">
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        View Project
+                      </Button>
+                    </a>
                   </div>
                 </CardContent>
               </Card>

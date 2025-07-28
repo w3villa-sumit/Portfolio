@@ -8,7 +8,7 @@ const Education = () => {
       degree: "Bachelor of Technology in Computer Science",
       institution: "Dr. A.P.J. Abdul Kalam Technical University",
       duration: "2021 – 2025",
-      status: "C.G.P.A.: Pending",
+      status: "C.G.P.A.: 7.65",
       type: "undergraduate"
     },
     {
