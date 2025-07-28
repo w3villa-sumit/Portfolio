@@ -4,7 +4,7 @@ A personal portfolio website built using [Vue.js](https://vuejs.org/) to showcas
 
 ## 🌐 Live Demo
 
-https://portfolio-oky5.onrender.com/
+https://portfolio-five-tau-uuaj0mvf08.vercel.app/
 
 ## 🖼️ Features
 
