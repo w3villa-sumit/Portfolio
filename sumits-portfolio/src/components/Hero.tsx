@@ -45,8 +45,7 @@ const Hero = () => {
             </a>
             <a
               href="/public/Sumit_Tiwari_7408533840.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              download
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105 inline-block"
             >
               <Button 
