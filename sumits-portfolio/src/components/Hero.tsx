@@ -30,20 +30,33 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-wrap gap-4">
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+            <a
+              href="https://linkedin.com/in/sumit-tiwari-710362252"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Mail className="w-4 h-4 mr-2" />
-              Contact Me
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
+              <Button 
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              >
+                <Mail className="w-4 h-4 mr-2" />
+                Contact Me
+              </Button>
+            </a>
+            <a
+              href="/public/Sumit_Tiwari_7408533840.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105 inline-block"
             >
-              Download CV
-            </Button>
+              <Button 
+                variant="outline" 
+                size="lg"
+                className="w-full h-full"
+              >
+                Download CV
+              </Button>
+            </a>
           </div>
           
           <div className="flex gap-6">
