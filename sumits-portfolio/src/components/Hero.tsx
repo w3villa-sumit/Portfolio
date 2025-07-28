@@ -46,12 +46,11 @@ const Hero = () => {
             <a
               href="/Sumit_Tiwari_7408533840.pdf"
               download
-              className="inline-block w-full"
             >
               <Button 
                 variant="outline" 
                 size="lg"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105 w-full h-full"
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
               >
                 Download CV
               </Button>
