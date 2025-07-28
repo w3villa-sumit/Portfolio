@@ -44,14 +44,14 @@ const Hero = () => {
               </Button>
             </a>
             <a
-              href="/public/Sumit_Tiwari_7408533840.pdf"
+              href="/Sumit_Tiwari_7408533840.pdf"
               download
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105 inline-block"
+              className="inline-block w-full"
             >
               <Button 
                 variant="outline" 
                 size="lg"
-                className="w-full h-full"
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105 w-full h-full"
               >
                 Download CV
               </Button>
