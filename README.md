@@ -13,8 +13,6 @@ https://portfolio-five-tau-uuaj0mvf08.vercel.app/
 - 🎨 Responsive and modern UI (custom CSS or framework like Bootstrap/Tailwind)
 - 📁 Project showcase with images, descriptions, and links
 - 📬 Contact form (with email integration or external service)
-- 🌙 Light/Dark theme toggle (optional)
-- 💬 Blog or resume section (optional)
 
 ## 🛠️ Tech Stack
 
